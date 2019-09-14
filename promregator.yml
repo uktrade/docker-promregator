@@ -1,0 +1,15 @@
+promregator:
+  authenticator:
+    type: basic
+    basic:
+      username: ${metric_endpoint_username}
+      password: ${metric_endpoint_password}
+
+  targets:
+    - orgName: ${ecs_staging_org}
+      spaceName: ${ecs_staging_space}
+      applicationName: ${ecs_staging_app}
+
+cf:
+  api_host: ${api_host}
+  username: ${CF_USERNAME}
