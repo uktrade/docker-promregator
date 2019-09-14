@@ -1,6 +1,7 @@
 promregator:
-  authenticator:
-    type: basic
+  endpoint:
+    auth: basic
+  authentication:
     basic:
       username: ${metric_endpoint_username}
       password: ${metric_endpoint_password}
