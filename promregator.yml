@@ -11,6 +11,9 @@ promregator:
       spaceName: ${ecs_staging_space}
       applicationName: ${ecs_staging_app}
 
+    - orgName: ${ecs_prod_org}
+      spaceName: ${ecs_prod_space}
+      applicationName: ${ecs_prod_app}
 cf:
   api_host: ${api_host}
   username: ${CF_USERNAME}
